@@ -34,11 +34,21 @@ a,a:hover,.page a:hover {
 .btn:hover,.tag a:hover,.sider .page a:hover {
 	background: #d53c2e;
 }
+#return-index{
+	width:103px;height:31px;position:fixed; top:12px;right:20px;
+	background-image: url(img/bg.png);
+}
+#a-top:hover{
+	opacity:0.8;
+}
 </style>
 
 </head>
 
 <body>
+
+	<a id="a-top" href="javascript:void(0)"><div id="return-index"></div></a>
+
 	<div class="doc">
 		
 		<jsp:include page="header.jsp"></jsp:include>
